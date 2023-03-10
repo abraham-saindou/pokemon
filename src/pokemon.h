@@ -13,13 +13,13 @@ public:
     int Level, Attack;
     int Defence = 0;
     int Accurracy;
-    Pokemon(std::string name, int atk, int Lev, int Precision);
+    Pokemon(std::string Name, int Atk, int Lev, int Precision);
     Pokemon(const Pokemon &pokemon);
     ~Pokemon();
 
-    std::string get_pokename()const;
+    std::string get_pokename();
     std::string set_pokename();
-    void show_data()const;
+    void show_data();
 };
 
 

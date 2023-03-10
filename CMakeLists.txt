@@ -3,4 +3,4 @@ project(Pokemonn)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Pokemonn src/pokemon.cpp)
+add_executable(Pokemon  src/Types/dragon.cpp)

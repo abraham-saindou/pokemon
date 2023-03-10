@@ -1,29 +1,31 @@
-#ifndef POKEMON_POKEMON_H
-#define POKEMON_POKEMON_H
+//
+// Created by kubun on 06/03/23.
+//
+#ifndef DRAGON_DRAGON_H
+#define DRAGON_DRAGON_H
 
 #include <iostream>
+#include <utility>
+#include <vector>
+#include "../pokemon.h"
 
-class Dragon{
+
+
+class Dragon: public Pokemon
+{
 private :
-    std::string name;
-    int atk, def = 10, 10;
+    int atk, def = 10;
+    std::string type = "Dragon";
 
 public:
-    Dragon(std::string nom, int attaque, int defense;)
-    Dragon(const Dragon& dragon);
-    ~Dragon()
-    void get_name(){
-        return name;
-    };
-    void set_name(){
-        std::string entry;
-        std::cin>>entry;
-        get_name();
-        name = entry
-    }
-    void show_data(){
-        std::string sen;
-    }
+    Dragon(std::string name, int atk, int lev, int precision) : Pokemon(std::move(name), atk, lev, precision){};
+    Dragon(const Dragon &dragon);
+    ~Dragon();
+
+    int get_atk();
+    int get_def();
+    int add_atk();
+    int add_def();
 
 };
 #endif

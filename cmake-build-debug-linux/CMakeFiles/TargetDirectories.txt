@@ -1,0 +1,3 @@
+/home/kubun/CLionProjects/pokemon/cmake-build-debug-linux/CMakeFiles/Pokemon.dir
+/home/kubun/CLionProjects/pokemon/cmake-build-debug-linux/CMakeFiles/edit_cache.dir
+/home/kubun/CLionProjects/pokemon/cmake-build-debug-linux/CMakeFiles/rebuild_cache.dir

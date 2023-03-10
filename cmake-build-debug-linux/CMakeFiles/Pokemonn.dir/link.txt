@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Pokemonn.dir/src/pokemon.cpp.o CMakeFiles/Pokemonn.dir/src/Types/dragon.cpp.o -o Pokemonn 
