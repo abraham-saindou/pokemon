@@ -19,6 +19,9 @@ public:
 
     std::string get_pokename();
     std::string set_pokename();
+    int get_Attack() const;
+    int get_Defence() const;
+
     void show_data();
 };
 

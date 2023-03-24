@@ -10,20 +10,19 @@
 #include "../pokemon.h"
 
 
-
 class Dragon: public Pokemon
 {
 private :
-    int atk, def = 10;
+    int atk =  10;
+    int def = 10;
     std::string type = "Dragon";
 
 public:
     Dragon(std::string name, int atk, int lev, int precision) : Pokemon(std::move(name), atk, lev, precision){};
-    Dragon(const Dragon &dragon);
     ~Dragon();
 
-    int get_atk();
-    int get_def();
+    int get_atk() const;
+    int get_def() const;
     int add_atk();
     int add_def();
 
